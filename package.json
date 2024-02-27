@@ -1,0 +1,11 @@
+{
+  "name": "jsproject",
+  "version": "1.0.0",
+  "description": "Учебный проект Курс \" Javascript Fullstack Developer\" и \"Javascript Frontend\"\r Кожевников Сергей 2024 год",
+  "main": "MyServer.js",
+  "scripts": {        
+    "start": "node MyServer.js"
+  },
+  "author": "Sergey Kozhevnikov",
+  "license": "ISC"
+}
