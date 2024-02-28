@@ -1,12 +1,10 @@
 //Курс " Javascript Fullstack Developer" и "Javascript Frontend"
 //Кожевников Сергей 2024 год
 //Задание 5
-
-
-
 //Напишите аналоги Utility Types
 //Придумайте собственный тип
 
+/*
 type TObject = {
 
     name:string,
@@ -93,7 +91,7 @@ const art01: Artifact = {
 
     console.log(art01.name)
 
- 
+ */
 
 //class
 
