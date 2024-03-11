@@ -107,6 +107,6 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
 
-  "include": ["src"] // Компилировать только файлы из папки src
+  "include": ["src", "Ex6/EX6.js"] // Компилировать только файлы из папки src
 
 }
