@@ -31,7 +31,7 @@
     flex-wrap: nowrap; 
     align-content: flex-start;
 
-    background-color: #bbdefb;
+    background-color: #fbfcfd;
     height: 100%;
     padding: 15px;
     gap: 5px;
@@ -39,8 +39,8 @@
   }
 
   .flex-container > div{
-    background: #ffecb3;
-    border: 3px solid #ffcc80;
+    background: #ffffff;
+    border: 1px solid #040404;
     border-radius: 5px;
     padding: 8px;
   }
@@ -55,7 +55,7 @@
 
 
 .article {
-    background-color: rgb(241, 237, 124);
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     padding: 10px;
     margin: 1px;
@@ -64,12 +64,13 @@
 /* body style */
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: system-ui, 'Times New Roman', Times, serif;
     border: 0 px solid black;
 }
 
 div{
-
+    margin-bottom: 10px;
+    border: 0px solid black;
 }
 
 #page {
@@ -77,19 +78,18 @@ div{
     border: 1px solid black;
     padding: 0px;
     margin: 0px;
-
 }
 
 #header {
-    background-color: rgb(212, 214, 210);
-    border: 0px solid black;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
     padding: 0px;
     margin: 0px;
 
 }
 
 #content {
-    background-color: rgb(231, 227, 229);
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     padding: 10px;
     margin: 0px;
@@ -101,18 +101,18 @@ div{
 
 
 #aside {
-    background-color: rgb(241, 237, 124);
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     padding: 10px;
     margin: 1px;
 }
 
 #footer {
-    background-color: rgb(216, 216, 214);
-    border: 0px solid black;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
     padding: 0px;
     margin: 0px;
-    height: 100px;
+    height: 30px;
 }
 
 /* colors style */
@@ -120,18 +120,14 @@ div{
 /* fonts style */
 
 h1 {
-    color:red;
+    color:rgb(2, 2, 2);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    font-weight: 500;
 }
 
 h2{
-    color:green;
-}
-
-
-li::before{
-
+    color:rgb(4, 4, 4);
 }
 
 a {
@@ -146,10 +142,6 @@ a:visited {
     color: green;
 }
 
-li:first-child {
-background-color: green;
-}
-
 #p2 {
     position: fixed;
     top: 20px;
@@ -157,3 +149,73 @@ background-color: green;
     clear: left;
 }
 
+
+.input-div-main {
+    float:left;
+}
+
+label {
+    float:left;
+    padding-right:10px;
+}
+
+.input-size {
+    clear:both;
+    text-align:left;
+    line-height:25px;
+
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(19, 19, 18);
+}
+
+
+.input-size2 {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(19, 19, 18);
+}
+
+p {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(2, 2, 2);
+}
+
+.p-h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(21, 21, 21);
+    margin-bottom: 20px;
+}
+
+.p-normal {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(19, 19, 18);
+}
+
+.p-small {
+    font-size: 9px;
+    font-weight: 500;
+    color: rgb(136, 136, 134);
+    margin-bottom: 20px;
+}
+.p-small-yel {
+font-size: 9px;
+font-style: normal;
+color: rgb(243, 206, 23);
+font-weight: 500;
+
+}
+
+.button {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #ee9530;
+    color: #000000;
+    padding: 8px 16px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}

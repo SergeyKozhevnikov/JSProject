@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>  Первая страница HTML - Привет Мир!</title>
+<title> Анонимный учебный центр</title>
 </head>
 <link rel="stylesheet" href="css\style.css" />
 <script src="app.js" async></script>
@@ -11,10 +11,10 @@
 
 <div id="page" >
   <div id="header">
-    <h1>Заголовок</h1>
+    <h1>Анонимный</h1>
     <nav>
       <!-- Комментарий -->
-      <p> Первая страница HTML - Привет Мир!</p>
+      <p> учебный центр</p>
     </nav>
   </div>
 
@@ -23,43 +23,58 @@
 <div id ="content" class="flex-container">
   <div class="article" >
 
+    <div>
+      <p class="p-h2"> Мастер-класс 12 июня </p>
+    </div>
+
     <form action="#" method="post">
-          <div>
-               <label for="name">Text Input:</label>
-               <input type="text" name="name" id="name" value="" tabindex="1" />
-          </div>
-          <div>
-               <h4>Radio Button Choice</h4>
 
-               <label for="radio-choice-1">Choice 1</label>
-               <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
+      <div class=".input-div-main">
 
-           <label for="radio-choice-2">Choice 2</label>
-               <input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
+          <div class="input-size">
+               <label for="fio" >Фамилия:</label>
+               <input type="text" name="fio" id="fio" value="" tabindex="1"/>
           </div>
 
-        <div>
-          <label for="select-choice">Select Dropdown Choice:</label>
-          <select name="select-choice" id="select-choice">
-            <option value="Choice 1">Choice 1</option>
-            <option value="Choice 2">Choice 2</option>
-            <option value="Choice 3">Choice 3</option>
-          </select>
+          <div class="input-size">
+            <label for="name" size=""> Имя:</label>
+            <input type="text" name="name" id="name" value="" tabindex="2" />
+          </div>
+
+          <div class="input-size">
+            <label for="tel" >Телефон:</label>
+            <input type="tel" name="tel" id="tel" value="" tabindex="3" />
+          </div>
+
+          <div class="input-size">
+            <label for="email" >Эл.почта:</label>
+            <input type="email" name="email" id="email" value="" tabindex="4" />
+          </div>
+
+          <div class="input-size">
+            <label for="birthday" >Дата рождения:</label>
+            <input type="date" name="birthday" id="birthday" value="" tabindex="5"/>
+          </div>
         </div>
 
         <div>
-          <label for="textarea">Textarea:</label>
-          <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+            <input type="checkbox" name="checkbox1" id="checkbox1" />
+            <label for="checkbox" class="p-normal">Я здесь буду впервые</label>
+            <p class="p-small">Поставьте галочку, если вы еще никогда не были в нашей церкви </p>
+          </div>
+          <div>
+            <input type="checkbox" name="checkbox2" id="checkbox2" />
+            <label for="checkbox" class="p-normal">Я выражаю свое согласие с </label> <span class="p-small-yel">условиями</span>
+            <p class="p-small">Заполните фамилию, имя, почту, телефон , дату рождения и согласия на обработку персональных данных </p>
+          </div>
+
+        <div>
+            <input type="submit" class="button" value="Зарегистрироваться" />
         </div>
 
-        <div>
-            <label for="checkbox">Checkbox:</label>
-          <input type="checkbox" name="checkbox" id="checkbox" />
-          </div>
+        <p class="p-small">Анонимный учебный центр ОГРН 1037739249569, зарегистрирован в Минюсте РФ, бланк № 7608941, учетный № 7711010455, дата выдачи 27.12.2010г.</p>
 
-        <div>
-            <input type="submit" value="Submit" />
-          </div>
+        <p class="p-small-yel">&laquo;Политика в отношении обработки персональных данных&raquo;</p>
       </form>
   </div>
 
