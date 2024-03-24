@@ -4,24 +4,75 @@
 <meta charset="UTF-8">
 <title> Анонимный учебный центр</title>
 </head>
-<link rel="stylesheet" href="css\style.css" />
+<link rel="stylesheet" href="css/style.css" />
 <script src="app.js" async></script>
 
 <body>
 
-<div id="page" >
-  <div id="header">
-    <h1>Анонимный</h1>
-    <nav>
-      <!-- Комментарий -->
-      <p> учебный центр</p>
-    </nav>
-  </div>
+<header class = 'header'>
+
+<div class = 'header1'>
+	<a href="">
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="40" viewbox="0 0 34.64101615137754 40" style="filter: drop-shadow(rgba(255, 255, 255, 0.5) 0px 0px 10px);"><path fill="#ffbf00" d="M17.32050807568877 0L34.64101615137754 10L34.64101615137754 30L17.32050807568877 40L0 30L0 10Z"></path></svg>
+	</a>
+</div>
+	
+<div class = 'header2'>
+	<h1>Анонимный</h1>
+	<p> учебный центр</p>
+</div>
+
+<div class = 'header3'>
+	
+	<button class = 'header31 button' type="button"> Настройки  </button>
+    	<button class = 'header32 button' type="button"> О нас </button>
+	
+</div>
+
+</header>
+
 
 <div class="flex-container">
 
+  <div class="aside">
+    <p> left side </p>
+    </div> <!--  id="aside" -->
+
 <div id ="content" class="flex-container">
-  <div class="article" >
+
+<div class="article" >
+
+	<div class = ''>	
+	<h22>Регистрация на мероприятие</h22>
+	<p class="input-size">Выберите день и время:</p>
+	</div>
+
+  <table>
+  <tr>
+    <th>
+	<p></p>
+    </th>
+    <th>	
+	<p class="p-creasy-text ">Подростки</p>    	
+    </th>
+  </tr>
+  <tr>
+    <td>
+	<button class = 'butTimes butTimes-left' type="button"> <p> Вс 10:00 </p> </button>
+    </td>
+    <td>
+ 	<button class = 'butTimes butTimes-right' type="button"> <p> Вс 13:00 </p> </button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	<p class="p-small"> 75 мест </p>
+    </td>
+    <td>
+	<p class="p-small"> 75 мест </p>
+    </td>
+  </tr>
+  </table>       
 
     <div>
       <p class="p-h2"> Мастер-класс 12 июня </p>
@@ -55,21 +106,26 @@
             <label for="birthday" >Дата рождения:</label>
             <input type="date" name="birthday" id="birthday" value="" tabindex="5"/>
           </div>
-        </div>
+          <p class="p-small">Поставьте галочку, если вы еще никогда не были в нашей церкви </p>
+         </div>
 
-        <div>
-            <input type="checkbox" name="checkbox1" id="checkbox1" />
-            <label for="checkbox" class="p-normal">Я здесь буду впервые</label>
-            <p class="p-small">Поставьте галочку, если вы еще никогда не были в нашей церкви </p>
+         <div class="container">
+          <div class="checkbox1">
+             <input type="checkbox" name="checkbox1" id="checkbox-1" />
+           </div>
+           <label for="checkbox-1" class="p-normal"> <span> Я здесь буду впервые</span></label>
+
+          <div class="checkbox1">
+            <input type="checkbox" name="checkbox2" id="checkbox-2" />
           </div>
           <div>
-            <input type="checkbox" name="checkbox2" id="checkbox2" />
-            <label for="checkbox" class="p-normal">Я выражаю свое согласие с </label> <span class="p-small-yel">условиями</span>
-            <p class="p-small">Заполните фамилию, имя, почту, телефон , дату рождения и согласия на обработку персональных данных </p>
+            <label for="checkbox-2" class="p-normal">Я выражаю свое согласие с <span class="p-small-yel">условиями</span> </label>
           </div>
-
+        </div>
+        <p class="p-small">Заполните фамилию, имя, почту, телефон , дату рождения и согласия на обработку персональных данных </p>
         <div>
-            <input type="submit" class="button" value="Зарегистрироваться" />
+
+            <input type="submit" class="button-reg" value="Зарегистрироваться" />
         </div>
 
         <p class="p-small">Анонимный учебный центр ОГРН 1037739249569, зарегистрирован в Минюсте РФ, бланк № 7608941, учетный № 7711010455, дата выдачи 27.12.2010г.</p>
@@ -78,21 +134,19 @@
       </form>
   </div>
 
-</div> <!-- id ="content" -->
+   </div> <!-- id ="content" -->
 
-<div id="aside" >
-  <nav>
-   "aside"
-  </nav>
-</div> <!--  id="aside" -->
+  <div class="aside">
+	<p> aside </p>
+  </div> <!--  id="aside" -->
 
 </div>
 
-<div id="footer">
-  <nav>
-    "footer"
-  </nav>
-</div> <!-- id="footer" -->
+<footer>
+<div>
+	<a href="">footer link</a>
+</div>
+</footer> <!-- id="footer" -->
 
 </div> <!-- id = page -->
 
