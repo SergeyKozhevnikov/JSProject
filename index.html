@@ -8,10 +8,8 @@
 <script src="app.js" async></script>
 
 <body>
-
 <header class = 'header'>
-
-<div class = 'header1'>
+<div class = 'header'>
 	<a href="">
            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="40" viewbox="0 0 34.64101615137754 40" style="filter: drop-shadow(rgba(255, 255, 255, 0.5) 0px 0px 10px);"><path fill="#ffbf00" d="M17.32050807568877 0L34.64101615137754 10L34.64101615137754 30L17.32050807568877 40L0 30L0 10Z"></path></svg>
 	</a>
@@ -22,15 +20,11 @@
 	<p> учебный центр</p>
 </div>
 
-<div class = 'header3'>
-	
+<div class = 'header3'>	
 	<button class = 'header31 button' type="button"> Настройки  </button>
-    	<button class = 'header32 button' type="button"> О нас </button>
-	
+    	<button class = 'header32 button' type="button"> О нас </button>	
 </div>
-
 </header>
-
 
 <div class="flex-container">
 
@@ -53,7 +47,17 @@
 	<p></p>
     </th>
     <th>	
-	<p class="p-creasy-text ">Подростки</p>    	
+	<p class="p-creasy-text">
+	<span>П </span>
+	<span>о </span>
+	<span>д </span>
+	<span>р </span>
+	<span>о </span>
+	<span>с </span>
+	<span>т </span>
+	<span>к </span>
+	<span>и </span>
+	</p>    	
     </th>
   </tr>
   <tr>
@@ -78,38 +82,50 @@
       <p class="p-h2"> Мастер-класс 12 июня </p>
     </div>
 
-    <form action="#" method="post">
-
+<div class="">    
+   <form action="#" method="post">
       <div class=".input-div-main">
 
           <div class="input-size">
                <label for="fio" >Фамилия:</label>
+          </div>
+	  <div> 
                <input type="text" name="fio" id="fio" value="" tabindex="1"/>
           </div>
 
           <div class="input-size">
-            <label for="name" size=""> Имя:</label>
-            <input type="text" name="name" id="name" value="" tabindex="2" />
+            <label for="name" size=""> Имя:</label>            
           </div>
+	  <div> 
+		<input type="text" name="name" id="name" value="" tabindex="2" />
+	  </div> 
 
           <div class="input-size">
             <label for="tel" >Телефон:</label>
-            <input type="tel" name="tel" id="tel" value="" tabindex="3" />
           </div>
+	  <div> 
+            <input type="tel" name="tel" id="tel" value="" tabindex="3" />
+	  </div> 
 
           <div class="input-size">
             <label for="email" >Эл.почта:</label>
-            <input type="email" name="email" id="email" value="" tabindex="4" />
           </div>
+	  <div> 
+            <input type="email" name="email" id="email" value="" tabindex="4" />
+	  </div> 
 
           <div class="input-size">
             <label for="birthday" >Дата рождения:</label>
-            <input type="date" name="birthday" id="birthday" value="" tabindex="5"/>
           </div>
-          <p class="p-small">Поставьте галочку, если вы еще никогда не были в нашей церкви </p>
-         </div>
+ 	  <div> 
+            <input type="date" name="birthday" id="birthday" value="" tabindex="5"/>
+	  </div> 
+ 
+      </div>
+		<p class="p-small">Поставьте галочку, если вы еще никогда не были в нашей церкви </p>	
+</div>
 
-         <div class="container">
+         <div class="container-check">
           <div class="checkbox1">
              <input type="checkbox" name="checkbox1" id="checkbox-1" />
            </div>
@@ -122,14 +138,12 @@
             <label for="checkbox-2" class="p-normal">Я выражаю свое согласие с <span class="p-small-yel">условиями</span> </label>
           </div>
         </div>
+
         <p class="p-small">Заполните фамилию, имя, почту, телефон , дату рождения и согласия на обработку персональных данных </p>
         <div>
-
             <input type="submit" class="button-reg" value="Зарегистрироваться" />
         </div>
-
         <p class="p-small">Анонимный учебный центр ОГРН 1037739249569, зарегистрирован в Минюсте РФ, бланк № 7608941, учетный № 7711010455, дата выдачи 27.12.2010г.</p>
-
         <p class="p-small-yel">&laquo;Политика в отношении обработки персональных данных&raquo;</p>
       </form>
   </div>
@@ -143,9 +157,12 @@
 </div>
 
 <footer>
-<div>
-	<a href="">footer link</a>
-</div>
+	<div>
+		<a href="">Copyright &#169 KSU Solutions 2024 </a>	
+	</div>
+	<div>	
+		<a href="">Author: Sergey K</a>
+	</div>
 </footer> <!-- id="footer" -->
 
 </div> <!-- id = page -->
